@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pr171</string>
+    <string name="log">Ваш логин</string>
+    <string name="pasw">Пароль</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+</resources>

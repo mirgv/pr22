@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:background="#c4c0c0">
+    <EditText
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/log"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"></EditText>
+    <EditText
+        android:id="@+id/pasw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pasw"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"></EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:onClick="Save_pasw"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:onClick="Save_pasw"
+        android:textAllCaps="false" />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
